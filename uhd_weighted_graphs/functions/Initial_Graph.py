@@ -15,7 +15,7 @@ choose_graph = input('Select one of the graphs by typing either G1, G2, or G3 he
 
 # If the user selected G1 then it set the intial graph
 
-if choose_graph == 'G1':
+if choose_graph == 'G1':                                                        # Initialize G1.txt if selected G1
     print('')
     
     G = nx.read_weighted_edgelist('data/G1.txt',
@@ -23,7 +23,7 @@ if choose_graph == 'G1':
     
 # If the user selected G2 then it set the intial graph
     
-if choose_graph == 'G2':
+if choose_graph == 'G2':                                                       # Initialize G2.txt if selected G2 
     print('')
     
     G = nx.read_weighted_edgelist('data/G2.txt',
@@ -31,7 +31,7 @@ if choose_graph == 'G2':
     
 # If the user selected G3 then it set the intial graph
     
-if choose_graph == 'G3':
+if choose_graph == 'G3':                                                       # Initialize G3.txt if selected G3
     print('')
 
     
