@@ -1,6 +1,6 @@
 import networkx as nx           # package required to build graphs and sub-graphs
-from functions.drawings import draw_subtree
-from functions.prims_functions import cost, min_prims_edges
+from functions.drawings import draw_subtree    #File imported from the draw_subtree
+from functions.prims_functions import cost, min_prims_edges      #File imported from the Prims_functions
 
 def prims_algorithm(G, starting_node, draw = False, attrib = False):           # Defining Prim's Algorithm
     
