@@ -3,5 +3,5 @@ from functions.Initial_Graph import *
 import networkx as nx
 
 
-T = prims_algorithm(G, int(input('Choose a node:')), draw = True, attrib = True)
+T = prims_algorithm(G, int(input('Choose a node:')), draw = True, attrib = True)        # Get an input from the user to choose a node
 
