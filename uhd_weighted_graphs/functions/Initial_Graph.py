@@ -10,7 +10,7 @@ print('')
 print("Initialize Prim's Algorithim below")
 print('')
 print('--------------------------------------------------')
-choose_graph = input('Select one of the graphs by typing either G1, G2, or G3 here: ')
+choose_graph = input('Select one of the graphs by typing either G1, G2, or G3 here: ')       #Get Input from user
 
 
 # If the user selected G1 then it set the intial graph
