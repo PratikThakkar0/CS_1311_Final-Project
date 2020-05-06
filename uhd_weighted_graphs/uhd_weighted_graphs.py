@@ -1,6 +1,7 @@
 from algorithms.prims import prims_algorithm
+from functions.Intial_Graph import *
 import networkx as nx
 
-G = nx.read_weighted_edgelist('data/G1.txt', nodetype = int)
 
-T = prims_algorithm(G, 3, draw = True, attrib = True)
+T = prims_algorithm(G, int(input('Choose a node:')), draw = True, attrib = True)
+
