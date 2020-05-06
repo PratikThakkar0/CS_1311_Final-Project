@@ -1,5 +1,5 @@
 from algorithms.prims import prims_algorithm
-from functions.Intial_Graph import *
+from functions.Initial_Graph import *
 import networkx as nx
 
 
