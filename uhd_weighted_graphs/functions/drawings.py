@@ -2,7 +2,7 @@ import networkx as nx
 import matplotlib.pyplot as plt
 import numpy as np
 
-def show_weighted_graph(G):                                   # displays the weighted graph
+def show_weighted_graph(G):                                   # defines and displays the weighted graph
     pos = nx.planar_layout(G)
     nx.draw(G, pos)
     labels = nx.get_edge_attributes(G, 'weight')
@@ -12,7 +12,7 @@ def show_weighted_graph(G):                                   # displays the wei
     plt.show()
    
 
-def draw_subtree(G, T):                                      # displays the sub-graph
+def draw_subtree(G, T):                                      # defines and displays the sub-graph
     pos = nx.planar_layout(G)
     nx.draw_networkx(G, pos)
     labels = nx.get_edge_attributes(G, 'weight')
