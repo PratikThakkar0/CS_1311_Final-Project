@@ -17,8 +17,8 @@ def prims_algorithm(G, starting_node, draw = False, attrib = False):           #
             draw_subtree(G, T)
             
     
-    if attrib == True:                                                        # defines the Total cost of the sub-graph
-        total_cost = sum(cost(G, e) for e in T.edges())
+    if attrib == True:                                                        # defines and returns the Total cost, the number of edges 
+        total_cost = sum(cost(G, e) for e in T.edges())                       # and its correspondinf weights of the sub-graph
         print('')
         print('_______________PROPERTIES OF THE TREE T___________________')
         print('__________________________________________________________')
